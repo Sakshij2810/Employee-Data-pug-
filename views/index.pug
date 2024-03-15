@@ -1,0 +1,16 @@
+extends layout.pug 
+include mixins/_tableRow
+
+block content
+    table
+        thead
+            tr
+               th Avatar
+               th First Name
+               th Last Name
+               th Email
+               th Phone
+               th city
+        tbody
+            each employee in employees
+                +tableRow(employee)

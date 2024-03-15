@@ -1,0 +1,6 @@
+link data => https://randomuser.me/api?results=20
+pug => template engine
+fetching data from => randomuser.me
+axios => to connect to local server securly which will give us the data / to unable https
+json-server package => setup json server (npm install -g json-server)
+to start json-server package => (json-server --watch db.json --port 3001)
